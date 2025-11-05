@@ -1,0 +1,11 @@
+Rs232 (MAX232) : les condensateurs sont des charges pompes et permettent de creer du +/-12V grâce à du 5V
+
+MAX485: DE = HIGH et RE = LOW permettent l'émission des données
+	DE = LOW et RE = LOW permettent la réception des données
+
+L1: Prendre coilcraft MSS1260-103NLD https://www.coilcraft.com/en-us/products/power/shielded-inductors/ferrite-drum/mss-mos/mss1260/?srsltid=AfmBOoqzBUIANT4vROR97m5ZQLWUHb1vqFX9DFtvPmURRdSRmxRZBAqa
+C4 (condo polarisé): https://fr.rs-online.com/web/p/condensateurs-electrolytiques-aluminium/5370528?gb=s
+R42 (résistance de shunt):https://www.mouser.fr/ProductDetail/Ohmite/LVM25FVR100E-TR?qs=sE1HjTVAc2i0SwIRI9sL1A%3D%3D&mgh=1&vip=1&utm_id=18188302969&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=18193091258&gbraid=0AAAAADn_wf3GSdHh6Q3bj0XOMPb_GO0Au&gclid=EAIaIQobChMIjL6ju-aejQMV6jEGAB3CDT1DEAQYASABEgJZ1fD_BwE
+
+Clock: https://www.mouser.fr/datasheet/2/3/abls-1664338.pdf
+
